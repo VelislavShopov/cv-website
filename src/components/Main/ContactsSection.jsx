@@ -10,16 +10,28 @@ export default function ContactsSection() {
       <h2 className={classes.contacts_title}>Contacts</h2>
       <div className={classes.img_flex_container}>
         <a href="https://www.facebook.com/velislav.shopov.10" target="_blank">
-          <img src={facebook_img} className={classes.contact_img}></img>
+          <img
+            src={facebook_img}
+            className={classes.contact_img}
+            alt="Facebook"
+          ></img>
         </a>
         <a href="mailto:shopov.velislav@gmail.com">
-          <img src={gmail_img} className={classes.contact_img}></img>
+          <img src={gmail_img} className={classes.contact_img} alt="Mail"></img>
         </a>
         <a href="https://www.instagram.com/v_shopov20/" target="_blank">
-          <img src={instagram_img} className={classes.contact_img}></img>
+          <img
+            src={instagram_img}
+            className={classes.contact_img}
+            alt="Instagram"
+          ></img>
         </a>
         <a href="https://github.com/VelislavShopov" target="_blank">
-          <img src={github_img} className={classes.contact_img}></img>
+          <img
+            src={github_img}
+            className={classes.contact_img}
+            alt="github"
+          ></img>
         </a>
       </div>
     </section>
