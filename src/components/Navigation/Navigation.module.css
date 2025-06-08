@@ -40,3 +40,15 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .ul {
+    gap: 1rem;
+  }
+  .a {
+    font-size: 3rem;
+  }
+  .active {
+    font-size: 3rem;
+  }
+}
