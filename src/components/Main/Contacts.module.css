@@ -1,0 +1,22 @@
+.contacts_section {
+  padding-top: 7rem;
+  padding-bottom: 13rem;
+}
+
+.contacts_title {
+  font-size: 6rem;
+  text-align: center;
+  color: #274472;
+  margin-bottom: 8rem;
+}
+
+.img_flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.contact_img {
+  height: 10rem;
+}

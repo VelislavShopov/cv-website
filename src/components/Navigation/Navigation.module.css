@@ -1,0 +1,42 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-inline: 5rem;
+  font-size: xx-large;
+  background-color: #274472;
+  color: #c3e0e5;
+  z-index: 50;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.a {
+  text-decoration: none;
+  color: #c3e0e5;
+  font-weight: bolder;
+}
+
+.active {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #5885af;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    justify-content: center;
+  }
+  .nav h3 {
+    display: none;
+  }
+}
