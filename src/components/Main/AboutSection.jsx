@@ -20,17 +20,33 @@ export default function AboutSection() {
             both in Python and C#.
           </p>
           <div className={classes.lang_img_container}>
-            <img src={py_img} className={classes.lang_img}></img>
-            <img src={csharp_img} className={classes.lang_img}></img>
+            <img src={py_img} className={classes.lang_img} alt="Py img"></img>
+            <img
+              src={csharp_img}
+              className={classes.lang_img}
+              alt="Csharp img"
+            ></img>
           </div>
         </div>
       </SlideInWrapper>
       <SlideInWrapper right>
         <div className={classes.text_imgs_container}>
           <div className={classes.lang_img_container_grid}>
-            <img src={react_img} className={classes.lang_img}></img>
-            <img src={django_img} className={classes.lang_img}></img>
-            <img src={postgres_img} className={classes.lang_img}></img>
+            <img
+              src={react_img}
+              className={classes.lang_img}
+              alt="React img"
+            ></img>
+            <img
+              src={django_img}
+              className={classes.lang_img}
+              alt="django img"
+            ></img>
+            <img
+              src={postgres_img}
+              className={classes.lang_img}
+              alt="Postgres img"
+            ></img>
           </div>
           <p className={classes.about_text}>
             I have strong understanding of React, Django, PostgreSQL and RESTful
@@ -50,7 +66,7 @@ export default function AboutSection() {
             communication and working effectively within a team.
           </p>
           <div className={classes.lang_img_container}>
-            <img src={fb_img} className={classes.fb_img}></img>
+            <img src={fb_img} className={classes.fb_img} alt="Fb image"></img>
           </div>
         </div>
       </SlideInWrapper>
