@@ -42,13 +42,10 @@
 }
 
 @media only screen and (max-width: 425px) {
-  .ul {
-    gap: 1rem;
-  }
   .a {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
   .active {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 }
