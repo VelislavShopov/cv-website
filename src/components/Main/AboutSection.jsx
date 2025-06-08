@@ -20,11 +20,11 @@ export default function AboutSection() {
             both in Python and C#.
           </p>
           <div className={classes.lang_img_container}>
-            <img src={py_img} className={classes.lang_img} alt="Py img"></img>
+            <img src={py_img} className={classes.lang_img} alt="Py"></img>
             <img
               src={csharp_img}
               className={classes.lang_img}
-              alt="Csharp img"
+              alt="Csharp"
             ></img>
           </div>
         </div>
@@ -32,20 +32,16 @@ export default function AboutSection() {
       <SlideInWrapper right>
         <div className={classes.text_imgs_container}>
           <div className={classes.lang_img_container_grid}>
-            <img
-              src={react_img}
-              className={classes.lang_img}
-              alt="React img"
-            ></img>
+            <img src={react_img} className={classes.lang_img} alt="React"></img>
             <img
               src={django_img}
               className={classes.lang_img}
-              alt="django img"
+              alt="django"
             ></img>
             <img
               src={postgres_img}
               className={classes.lang_img}
-              alt="Postgres img"
+              alt="Postgres"
             ></img>
           </div>
           <p className={classes.about_text}>
@@ -66,7 +62,7 @@ export default function AboutSection() {
             communication and working effectively within a team.
           </p>
           <div className={classes.lang_img_container}>
-            <img src={fb_img} className={classes.fb_img} alt="Fb image"></img>
+            <img src={fb_img} className={classes.fb_img} alt="Fb"></img>
           </div>
         </div>
       </SlideInWrapper>
