@@ -45,7 +45,30 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 910px) {
+  .home_section {
+    margin: 0 2rem;
+    flex-direction: column;
+    padding-top: 10rem;
+    gap: 2rem;
+    padding-bottom: 10rem;
+  }
+
+  .intro_p {
+    font-size: 4.3rem;
+  }
+
+  .second_title {
+    font-size: 2.5rem;
+  }
+  .img {
+    height: 20rem;
+    width: 20rem;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .home_section {
     display: grid;
     padding-top: 6.5rem;
@@ -66,10 +89,17 @@
 
   .img {
     height: 15rem;
+    width: 15rem;
   }
 
   .second_title {
     font-size: 1.7rem;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .intro_p {
+    font-size: 3.8rem;
   }
 }

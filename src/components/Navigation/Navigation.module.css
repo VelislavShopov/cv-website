@@ -32,7 +32,7 @@
   color: #5885af;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   .nav {
     justify-content: center;
   }
@@ -42,10 +42,27 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .nav {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
   .a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .active {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nav {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .a {
+    font-size: 1.6rem;
+  }
+  .active {
+    font-size: 1.6rem;
   }
 }
