@@ -52,7 +52,7 @@ export default function AboutSection() {
         </div>
       </SlideInWrapper>
       <SlideInWrapper>
-        <div className={classes.text_imgs_container}>
+        <div className={classes.text_imgs_container_last}>
           <p className={classes.about_text_smaller}>
             Outside of my studies, I've spent 12 years training in football, an
             experience that has profoundly shaped my approach to challenges.
@@ -61,9 +61,8 @@ export default function AboutSection() {
             projects. This background has taught me the importance of clear
             communication and working effectively within a team.
           </p>
-          <div className={classes.lang_img_container}>
-            <img src={fb_img} className={classes.fb_img} alt="Fb"></img>
-          </div>
+
+          <img src={fb_img} className={classes.fb_img} alt="Fb"></img>
         </div>
       </SlideInWrapper>
     </section>
