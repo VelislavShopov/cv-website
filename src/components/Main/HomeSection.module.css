@@ -1,5 +1,5 @@
 .home_section {
-  margin: 0 18rem;
+  margin: 0 5rem;
   display: flex;
   gap: 3rem;
   justify-content: center;
@@ -28,6 +28,21 @@
 .second_title {
   font-size: 3rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home_section {
+    margin: 0 5rem;
+    gap: 1rem;
+  }
+
+  .img {
+    height: 25rem;
+  }
+
+  .intro_p {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
