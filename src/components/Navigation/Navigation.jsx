@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
 import classes from "./Navigation.module.css";
+import calculateTopCoordinates from "../../calculatingAreaPositions";
 
 export default function Navigation() {
   const [activePartPage, setActivePartPage] = useState("home");
+
+  // const homeTop = calculateTopCoordinates("#home");
+
   useEffect(() => {
     if (window.scrollY >= 3286) {
       setActivePartPage("contacts");
@@ -13,16 +17,19 @@ export default function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 3286) {
+      if (window.scrollY >= contactsTop - 200) {
         setActivePartPage("contacts");
-      } else if (window.scrollY >= 900) {
+      } else if (window.scrollY >= aboutTop - 200) {
         setActivePartPage("aboutme");
       } else {
         setActivePartPage("home");
       }
     };
-
-    window.addEventListener("scroll", handleScroll);
+    const aboutTop = calculateTopCoordinates("#about");
+    const contactsTop = calculateTopCoordinates("#contacts");
+    window.addEventListener("scroll", () =>
+      handleScroll(aboutTop, contactsTop)
+    );
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
