@@ -30,7 +30,7 @@ export default function AboutSection() {
         </div>
       </SlideInWrapper>
       <SlideInWrapper right>
-        <div className={classes.text_imgs_container}>
+        <div className={classes.text_imgs_container_right}>
           <div className={classes.lang_img_container_grid}>
             <img src={react_img} className={classes.lang_img} alt="React"></img>
             <img
