@@ -29,7 +29,7 @@
 .active {
   font-weight: bolder;
   text-decoration: none;
-  color: #5885af;
+  color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 850px) {
